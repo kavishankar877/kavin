@@ -155,7 +155,7 @@ box-sizing: border-box;
 
 .c1{
     border: 1px solid red;
-    width: 200px;
+    width: 230px;
     height: 60px;
     display: flex;
     align-items: center;
@@ -165,4 +165,16 @@ box-sizing: border-box;
 
 .c2{
     list-style: none;
+}
+.pd2{
+    color: rgb(18,18,18);
+    text-decoration: none;
+ font-family: inherit;
+ letter-spacing: 0.04rem;
+
+}
+
+.pd2:hover{
+    text-decoration:underline;
+   
 }

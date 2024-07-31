@@ -10,22 +10,25 @@ box-sizing: border-box;
     border: 2px solid orangered;
     width: 100%;
     height:170px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+    position: fixed;
 }
 
 .cntre{
 
     
-    /* margin-top: 10px; */
-    border: 2px solid greenyellow;
-    width:100%; /* 1460 */
+    margin-top: 10px;
+    /* border: 2px solid greenyellow;  */
+    width:1450px; /* 1460 */
     height:90px ;
     display:flex;
     /* flex-direction: row; */
     
-    /* align-items: center; */
+    align-items: center;
     justify-content:center;
 
 
@@ -33,7 +36,7 @@ box-sizing: border-box;
 
 .box1{
     
-    border: 2px solid rgb(47, 57, 255);
+    /* border: 2px solid rgb(47, 57, 255); */
     width:350px;
     height:70px;
     display: flex;
@@ -62,7 +65,7 @@ box-sizing: border-box;
 }
 
 .box2{
-    border: 3px solid rgb(255, 158, 47);
+    /* border: 3px solid rgb(255, 158, 47); */
     width:740px;
     height:70px ;
     display: flex;
@@ -72,7 +75,7 @@ box-sizing: border-box;
 }
 
 .search1{
-    border: 1px solid rgb(143, 134, 110);
+    /* border: 1px solid rgb(143, 134, 110); */
     width: 700px;
     height: 50px;
     font-size: 1.1em;
@@ -92,7 +95,7 @@ box-sizing: border-box;
 }
 
 .box3{
-    border: 2px solid rgb(255, 47, 54);
+    /* border: 2px solid rgb(255, 47, 54); */
     width:370px;
     height:70px;
     display: flex;
@@ -100,22 +103,38 @@ box-sizing: border-box;
 }
 
 .a1{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 92px;
     height: 70px;
      
 }
 .b1{
-    border: 2px solid rgb(255, 47, 54);
+    /* border: 2px solid rgb(255, 47, 54); */
     width: 100%;
     height:35px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    
+    /* transition-duration:1s;
+    transform:translate();
+    transition-timing-function: ease-out;
+    transition-delay: 2s; */
+
+    /* transition: 3s 1s linear; */
+    transition: yellow 3s 1s linear;
    
   
     
+}
+
+.b1:hover{
+    transition: yellow 3s 1s linear;
+}
+
+far fa-heart:hover{
+    transition: background-color(yellow) 1s 1s linear;
 }
 
 .fa-solid fa-store{
@@ -124,7 +143,7 @@ box-sizing: border-box;
 }
 
 .b2{
-    border:3px solid black;
+    /* border:3px solid black; */
     width: 100%;
     height: 35px;
     display: flex;
@@ -142,9 +161,9 @@ box-sizing: border-box;
 }
 
 .box4{
-    border: 2px solid red;
-    width: 100%;
-    height: 60px;
+    /* border: 2px solid red; */
+    width: 1450px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -154,9 +173,9 @@ box-sizing: border-box;
 
 
 .c1{
-    border: 1px solid red;
-    width: 230px;
-    height: 60px;
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -169,9 +188,18 @@ box-sizing: border-box;
 .pd2{
     color: rgb(18,18,18);
     text-decoration: none;
- font-family: inherit;
- letter-spacing: 0.04rem;
+ /* font-family: inherit; */
+ /* letter-spacing: 0.04rem; */
 
+}
+
+.far fa-heart:hover{
+    transition-duration:3s;
+    transform: rotate(45 deg);
+    transition-timing-function: ease-in-out;
+    transition-delay: 5s;
+
+     
 }
 
 .pd2:hover{
